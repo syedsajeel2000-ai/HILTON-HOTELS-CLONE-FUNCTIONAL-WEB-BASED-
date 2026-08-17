@@ -1,0 +1,15 @@
+# Cloudflare Pages configuration (optional — you can also deploy from the
+# Cloudflare dashboard without this file).
+#
+# Build:            npm run build        (outputs to dist/)
+# Deploy (CLI):     npx wrangler pages deploy dist
+# Dashboard:        Pages -> Create -> Connect to Git, set:
+#                     Build command:   npm run build
+#                     Output dir:      dist
+#                     Environment variables:
+#                       VITE_SUPABASE_URL       = https://xxxx.supabase.co
+#                       VITE_SUPABASE_ANON_KEY  = (anon / publishable key)
+
+name = "grandhaven-hotels"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "dist"
